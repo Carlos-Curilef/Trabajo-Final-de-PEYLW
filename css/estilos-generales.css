@@ -1,0 +1,17 @@
+:root{
+    font-size: 16px;
+    --color-primario: #3B5249;
+    --color-secundario: #8aa29e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
