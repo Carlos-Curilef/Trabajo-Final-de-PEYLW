@@ -1,0 +1,69 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 64rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-izquierda, .caja-derecha{
+    width: 50%;
+    height: 100%;
+}
+.caja-izquierda{
+    background-color: aqua;
+}
+
+.caja-derecha{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-centrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+}
+
+.entrada{
+    margin: 0.5rem;
+    width: 100%;
+    height: 4rem;
+}
+
+#submit, input[type="email"], input[type="password"], #nombre, #apellido{
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#submit{
+    background-color: var(--color-secundario);
+    color: var(--color-secundario-fuente);
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+#submit:hover{
+    background-color: lightcoral;
+}

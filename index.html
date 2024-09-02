@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos-generales.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/css/estilos-generales.css">
+    <link rel="stylesheet" type="text/css" href="/css/signin-signup.css">
     <title>Inicio de Sesión</title>
 </head>
 <body>
     <div class="contenedor">
-        <form action="">
-            <h1>Inicio de sesión</h1>
-            <div class="entrada">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
+        <div class="caja-izquierda">
+            <h1 class="titulo">
+               Bienvenidos a Widmo 
+            </h1>
+            <div class="descripcion">
+                <p>
+                    Imagina un hogar donde cada rincón refleja tu personalidad y estilo de vida. Un espacio donde la calidad y el diseño se fusionan para crear ambientes únicos y acogedores. En Widmo, hacemos realidad ese sueño.
+
+Nacimos de la pasión por crear hogares que inspiren. Cada uno de nuestros productos es cuidadosamente seleccionado, desde muebles elegantes hasta accesorios decorativos que marcan la diferencia. Creemos que tu hogar es mucho más que un lugar para vivir, es un reflejo de quién eres.
+                </p>
             </div>
-            <div class="entrada">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="entrada">
-                <button type="submit">Iniciar Sesión</button>
+        </div>
+        <form class="caja-derecha">
+            <div class="caja-centrada">
+                <form action="">
+                    <h2>Iniciar Sesión</h2>
+                    <div class="entrada">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="entrada">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" placeholder="Contraseña">
+                    </div>
+                    <div class="entrada">
+                        <input type="submit" value="Iniciar Sesión" id="submit">
+                    </div>
+                    <p>¿No tienes cuenta? <a href="/html/crear-cuenta.html">Crea una cuenta aquí</a></p>
+                </form>
             </div>
         </form>
     </div>
